@@ -7,11 +7,12 @@
 :root {
    --text-color: white;
    --bg-url: url(./assets/bg-mobile.jpg);
-   --stroke-color:rgba(255, 255, 255, 0.5);
-   --surface-color: rgba(255, 255, 255, 0.2);
+   --stroke-color:rgba(255, 255, 255, 0.12);
+   --surface-color: rgba(255, 255, 255, 0.12);
    --surface-color-hover: rgba(255, 255, 255, 0.2);
    --highlight-color: rgba(55, 255, 255, 0.2);
    --switch-bg: url(./assets/moon-stars.svg);
+   --link-color: white;
 }
 
 .light {
@@ -22,6 +23,7 @@
    --surface-color-hover: rgba(255, 255, 255, 0.2);
    --highlight-color: rgba(0,0,0,0.1);
    --switch-bg: url(./assets/sun.svg);
+   --link-color: #4C1D95;
 }
 
 body  {
@@ -137,6 +139,12 @@ body {
     font-weight: bold;
 
     transition: all 0.2s;
+ }
+
+ a,
+ a:visited {
+  color: var(--link-color);
+  text-decoration: none;
  }
 
  /* pseudo-selector */

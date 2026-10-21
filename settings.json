@@ -12,6 +12,7 @@
 
   // explorer
   "explorer.compactFolders": false,
+
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "material-icon-theme",
@@ -25,13 +26,11 @@
   "prettier.semi": false,
 
   // terminal
-  "editor.formatOnSave": true,
-  "editor.wordWrap": "on",
   "terminal.integrated.fontSize": 16,
   "terminal.integrated.profiles.windows": {
-  "Git Bash": {
-    "source": "Git Bash"
-  }
-},
-"terminal.integrated.defaultProfile.windows": "Git Bash"
+    "Git Bash": {
+      "source": "Git Bash"
+    }
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
